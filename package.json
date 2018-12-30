@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-stylelint",
+  "version": "0.0.0",
+  "description": "Stylelint configuration for Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twbs/bootstrap-stylelint.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "stylelint"
+  ],
+  "author": "Martijn Cuppens <martijn.cuppens@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twbs/bootstrap-stylelint/issues"
+  },
+  "homepage": "https://github.com/twbs/bootstrap-stylelint#readme"
+}
