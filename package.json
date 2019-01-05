@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-bootstrap",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Default stylelint config used by Bootstrap.",
   "main": "css/index.js",
   "repository": {
