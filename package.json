@@ -5,7 +5,7 @@
   "main": "css/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twbs/stylelint-config-bootstrap.git"
+    "url": "git+https://github.com/twbs/stylelint-config-twbs-bootstrap.git"
   },
   "keywords": [
     "bootstrap",
@@ -13,12 +13,12 @@
     "config",
     "lint"
   ],
-  "author": "The Bootstrap Authors (https://github.com/twbs/stylelint-config-bootstrap/graphs/contributors)",
+  "author": "The Bootstrap Authors (https://github.com/twbs/stylelint-config-twbs-bootstrap/graphs/contributors)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/twbs/stylelint-config-bootstrap/issues"
+    "url": "https://github.com/twbs/stylelint-config-twbs-bootstrap/issues"
   },
-  "homepage": "https://github.com/twbs/stylelint-config-bootstrap#readme",
+  "homepage": "https://github.com/twbs/stylelint-config-twbs-bootstrap#readme",
   "files": [
     "css/index.js",
     "scss/index.js"

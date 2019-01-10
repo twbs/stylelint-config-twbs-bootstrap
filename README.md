@@ -1,4 +1,4 @@
-# stylelint-config-bootstrap
+# stylelint-config-twbs-bootstrap
 
 Default stylelint config used by Bootstrap.
 
@@ -18,7 +18,7 @@ We provide a config for both CSS and SCSS. You can choose which one you would li
 
 ```json
 {
-  "extends": "stylelint-config-bootstrap/css"
+  "extends": "stylelint-config-twbs-bootstrap/css"
 }
 ```
 
@@ -26,6 +26,6 @@ We provide a config for both CSS and SCSS. You can choose which one you would li
 
 ```json
 {
-  "extends": "stylelint-config-bootstrap/scss"
+  "extends": "stylelint-config-twbs-bootstrap/scss"
 }
 ```
