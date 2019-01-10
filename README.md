@@ -5,9 +5,9 @@ Default stylelint config used by Bootstrap.
 ## Installation
 
 ```bash
-npm install stylelint-config-bootstrap --save-dev
+npm install stylelint-config-twbs-bootstrap --save-dev
 # Or with yarn:
-yarn add stylelint-config-bootstrap --dev
+yarn add stylelint-config-twbs-bootstrap --dev
 ```
 
 ## Usage
