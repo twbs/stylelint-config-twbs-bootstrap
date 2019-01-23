@@ -7,14 +7,6 @@ module.exports = {
   ],
   'rules': {
     'at-rule-no-unknown': null,
-    'property-blacklist': [
-      'border-radius',
-      'border-top-left-radius',
-      'border-top-right-radius',
-      'border-bottom-right-radius',
-      'border-bottom-left-radius',
-      'transition'
-    ],
     'scss/at-function-named-arguments': 'never',
     'scss/at-function-parentheses-space-before': 'never',
     'scss/at-import-no-partial-leading-underscore': true,
