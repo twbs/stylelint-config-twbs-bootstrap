@@ -10,7 +10,7 @@ module.exports = {
     'scss/at-function-named-arguments': 'never',
     'scss/at-function-parentheses-space-before': 'never',
     'scss/at-import-no-partial-leading-underscore': true,
-    'scss/at-mixin-argumentless-call-parentheses': null,
+    'scss/at-mixin-argumentless-call-parentheses': 'always',
     'scss/at-mixin-named-arguments': null,
     'scss/at-mixin-parentheses-space-before': 'never',
     'scss/at-rule-no-unknown': true,
