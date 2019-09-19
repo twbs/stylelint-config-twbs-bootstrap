@@ -35,5 +35,10 @@
     "stylelint-order": "^3.1.1",
     "stylelint-scss": "^3.11.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "stylelint": "^11.0.0"
+  },
+  "scripts": {
+    "test-ci": "stylelint \"bootstrap/scss/**/*.scss\" --config scss/index.js --ignore-pattern \"**/vendor/\""
+  }
 }
