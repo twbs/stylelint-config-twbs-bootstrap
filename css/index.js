@@ -276,6 +276,7 @@ module.exports = {
     'selector-no-vendor-prefix': true,
     'shorthand-property-no-redundant-values': true,
     'string-quotes': 'double',
+    'unicode-bom': 'never',
     'value-keyword-case': 'lower',
     'value-list-comma-newline-after': 'never-multi-line',
     'value-list-comma-newline-before': 'never-multi-line',
