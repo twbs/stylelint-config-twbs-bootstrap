@@ -34,16 +34,9 @@ module.exports = {
     'function-url-no-scheme-relative': true,
     'function-url-quotes': 'always',
     'length-zero-no-unit': true,
-    'max-empty-lines': 4,
+    'max-empty-lines': 2,
     'max-line-length': null,
-    'media-feature-name-no-unknown': [
-      true,
-      {
-        'ignoreMediaFeatureNames': [
-          'prefers-reduced-motion'
-        ]
-      }
-    ],
+    'media-feature-name-no-unknown': true,
     'media-feature-name-no-vendor-prefix': true,
     'media-feature-parentheses-space-inside': 'never',
     'media-feature-range-operator-space-after': 'always',
