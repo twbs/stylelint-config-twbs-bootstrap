@@ -36,9 +36,13 @@
     "stylelint-scss": "^3.11.1"
   },
   "devDependencies": {
+    "eslint": "^6.5.1",
     "stylelint": "^11.0.0"
   },
   "scripts": {
+    "eslint": "eslint --report-unused-disable-directives .",
+    "lint": "npm run eslint",
+    "test": "npm run eslint",
     "test-ci": "stylelint \"bootstrap/scss/**/*.scss\" --config scss/index.js --ignore-pattern \"**/vendor/\""
   }
 }
