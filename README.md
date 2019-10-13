@@ -1,4 +1,4 @@
-# stylelint-config-twbs-bootstrap ![Build Status](https://github.com/twbs/stylelint-config-twbs-bootstrap/workflows/Tests/badge.svg)
+# stylelint-config-twbs-bootstrap [![Build Status](https://github.com/twbs/stylelint-config-twbs-bootstrap/workflows/Tests/badge.svg)](https://github.com/twbs/stylelint-config-twbs-bootstrap/actions?workflow=Tests)
 
 Default stylelint config used by Bootstrap.
 
