@@ -19,6 +19,7 @@ module.exports = {
     'color-named': 'never',
     'declaration-block-semicolon-newline-before': 'never-multi-line',
     'declaration-empty-line-before': null,
+    'declaration-no-important': true,
     'font-family-name-quotes': 'always-where-recommended',
     'font-weight-notation': [
       'numeric',
