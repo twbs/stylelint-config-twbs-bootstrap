@@ -13,6 +13,7 @@ module.exports = {
     'scss/at-mixin-argumentless-call-parentheses': 'always',
     'scss/at-mixin-named-arguments': null,
     'scss/at-mixin-parentheses-space-before': 'never',
+    'scss/at-rule-no-unknown': true,
     'scss/dollar-variable-colon-space-after': 'at-least-one-space',
     'scss/dollar-variable-colon-space-before': 'never',
     'scss/dollar-variable-default': [
