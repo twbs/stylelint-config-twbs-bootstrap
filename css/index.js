@@ -10,7 +10,6 @@ module.exports = {
   'rules': {
     'at-rule-empty-line-before': null,
     'at-rule-name-space-after': 'always',
-    'at-rule-no-unknown': true,
     'at-rule-no-vendor-prefix': true,
     'at-rule-semicolon-space-before': 'never',
     'block-closing-brace-empty-line-before': null,
@@ -34,7 +33,6 @@ module.exports = {
     'max-empty-lines': 2,
     'max-line-length': null,
     'media-feature-name-no-vendor-prefix': true,
-    'media-feature-range-operator-space-before': 'never',
     'no-descending-specificity': null,
     'number-leading-zero': 'never',
     'order/properties-order': [
@@ -259,7 +257,6 @@ module.exports = {
     'selector-max-class': 4,
     'selector-max-combinators': 4,
     'selector-max-compound-selectors': 4,
-    'selector-max-empty-lines': 1,
     'selector-max-id': 0,
     'selector-max-specificity': null,
     'selector-max-type': 2,
