@@ -16,12 +16,6 @@ module.exports = {
     'scss/at-rule-no-unknown': true,
     'scss/dollar-variable-colon-space-after': 'at-least-one-space',
     'scss/dollar-variable-colon-space-before': 'never',
-    'scss/dollar-variable-default': [
-      true,
-      {
-        'ignore': 'local'
-      }
-    ],
     'scss/dollar-variable-no-missing-interpolation': true,
     'scss/media-feature-value-dollar-variable': null,
     'scss/no-duplicate-dollar-variables': [
