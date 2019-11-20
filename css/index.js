@@ -249,7 +249,7 @@ module.exports = {
     'property-no-vendor-prefix': true,
     'rule-empty-line-before': null,
     'selector-attribute-quotes': 'always',
-    'selector-class-pattern': '^[a-z][a-z0-9\\-]*[a-z0-9]$',
+    'selector-class-pattern': '^[a-z][a-z0-9-]*[a-z0-9]$',
     'selector-list-comma-newline-before': 'never-multi-line',
     'selector-list-comma-space-after': 'always-single-line',
     'selector-list-comma-space-before': 'never-single-line',
