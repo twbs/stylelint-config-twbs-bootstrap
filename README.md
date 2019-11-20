@@ -4,10 +4,20 @@ Default stylelint config used by Bootstrap.
 
 ## Installation
 
+### CSS config (default):
+
 ```bash
 npm install stylelint-config-twbs-bootstrap --save-dev
 # Or with yarn:
 yarn add stylelint-config-twbs-bootstrap --dev
+```
+
+### SCSS config:
+
+```bash
+npm install stylelint-config-twbs-bootstrap stylelint-scss stylelint-config-recommended-scss --save-dev
+# Or with yarn:
+yarn add stylelint-config-twbs-bootstrap stylelint-scss stylelint-config-recommended-scss --dev
 ```
 
 ## Usage
