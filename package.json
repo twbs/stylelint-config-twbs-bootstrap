@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-twbs-bootstrap",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Default stylelint config used by Bootstrap.",
   "main": "css/index.js",
   "repository": {
