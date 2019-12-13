@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
 
       - name: Clone twbs/bootstrap repository
         run: git clone https://github.com/twbs/bootstrap.git --depth 1
