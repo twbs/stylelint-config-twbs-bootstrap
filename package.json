@@ -25,10 +25,10 @@
     "scss/index.js"
   ],
   "engines": {
-    "node": ">=8.10.0"
+    "node": ">=10"
   },
   "peerDependencies": {
-    "stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0"
+    "stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0 || ^13.0.0"
   },
   "dependencies": {
     "stylelint-config-recommended-scss": "^4.1.0",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "stylelint": "^12.0.1"
+    "stylelint": "^13.0.0"
   },
   "scripts": {
     "eslint": "eslint --report-unused-disable-directives .",
