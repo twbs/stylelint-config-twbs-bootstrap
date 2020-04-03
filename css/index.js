@@ -19,7 +19,7 @@ module.exports = {
     'declaration-block-semicolon-newline-before': 'never-multi-line',
     'declaration-empty-line-before': null,
     'declaration-no-important': true,
-    'font-family-name-quotes': 'always-where-recommended',
+    'font-family-name-quotes': 'always-where-required',
     'font-weight-notation': [
       'numeric',
       {
