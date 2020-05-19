@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "eslint": "^7.0.0",
-    "stylelint": "^13.3.3"
+    "stylelint": "^13.4.1"
   },
   "scripts": {
     "eslint": "eslint --report-unused-disable-directives .",
