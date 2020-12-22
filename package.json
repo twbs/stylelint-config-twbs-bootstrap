@@ -37,7 +37,7 @@
     "stylelint-scss": "^3.18.0"
   },
   "devDependencies": {
-    "eslint": "^7.15.0",
+    "eslint": "^7.16.0",
     "stylelint": "^13.8.0"
   },
   "scripts": {
