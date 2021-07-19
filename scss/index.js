@@ -7,6 +7,7 @@ module.exports = {
   ],
   'rules': {
     'at-rule-no-unknown': null,
+    'no-invalid-position-at-import-rule': null,
     'scss/at-function-named-arguments': 'never',
     'scss/at-function-pattern': '^[a-z][a-z-]*$',
     'scss/at-function-parentheses-space-before': 'never',
