@@ -44,6 +44,6 @@
     "eslint": "eslint --ignore-path .gitignore --report-unused-disable-directives .",
     "lint": "npm run eslint",
     "test": "npm run eslint",
-    "test-ci": "stylelint \"(bootstrap|bootstrap-4)/scss/**/*.scss\" --config scss/index.js --ignore-pattern \"**/vendor/\""
+    "test-ci": "stylelint \"(bootstrap|bootstrap-4)/scss/**/*.scss\" --config scss/index.js --ignore-pattern \"**/vendor/\" --formatter verbose"
   }
 }
