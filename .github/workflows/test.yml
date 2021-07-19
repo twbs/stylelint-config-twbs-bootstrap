@@ -19,11 +19,10 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v2
 
-      - name: Clone twbs/bootstrap repository
-        uses: actions/checkout@v2
-        with:
-          repository: twbs/bootstrap
-          path: bootstrap
+      - name: Clone twbs/bootstrap repo
+        run: |
+          git clone https://github.com/twbs/bootstrap.git -b main --depth 1 bootstrap
+          git clone https://github.com/twbs/bootstrap.git -b v4-dev --depth 1 bootstrap-4
 
       - name: Set up Node.js
         uses: actions/setup-node@v2
