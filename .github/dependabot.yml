@@ -8,7 +8,6 @@ updates:
       time: "11:30"
       timezone: Europe/Athens
     reviewers:
-      - MartijnCuppens
       - XhmikosR
     labels:
       - dependencies
