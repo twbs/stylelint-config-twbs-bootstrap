@@ -28,7 +28,7 @@
     "node": ">=10"
   },
   "peerDependencies": {
-    "stylelint": "^13.13.1"
+    "stylelint": "^14.0.1"
   },
   "dependencies": {
     "stylelint-config-recommended-scss": "^4.3.0",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "stylelint": "^13.13.1"
+    "stylelint": "^14.0.1"
   },
   "scripts": {
     "eslint": "eslint --ignore-path .gitignore --report-unused-disable-directives .",
