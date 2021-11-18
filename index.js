@@ -274,7 +274,7 @@ module.exports = {
   'overrides': [
     {
       'files': '**/*.scss',
-      'extends': ['stylelint-config-recommended-scss'],
+      'extends': ['stylelint-config-standard-scss'],
       'rules': {
         'at-rule-no-unknown': null,
         'no-invalid-position-at-import-rule': null,
