@@ -2,7 +2,7 @@
   "name": "stylelint-config-twbs-bootstrap",
   "version": "2.2.4",
   "description": "Default stylelint config used by Bootstrap.",
-  "main": "css/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twbs/stylelint-config-twbs-bootstrap.git"
@@ -21,8 +21,7 @@
   },
   "homepage": "https://github.com/twbs/stylelint-config-twbs-bootstrap#readme",
   "files": [
-    "css/index.js",
-    "scss/index.js"
+    "index.js"
   ],
   "engines": {
     "node": ">=10"
