@@ -27,7 +27,7 @@
     "node": ">=12"
   },
   "peerDependencies": {
-    "stylelint": "^13.13.1"
+    "stylelint": "^14.1.0"
   },
   "dependencies": {
     "stylelint-config-recommended-scss": "^5.0.1",
