@@ -31,14 +31,14 @@
     "stylelint": "^13.13.1"
   },
   "dependencies": {
-    "stylelint-config-recommended-scss": "^4.3.0",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.21.0"
+    "stylelint-config-recommended-scss": "^5.0.1",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "stylelint": "^13.13.1"
+    "stylelint": "^14.1.0"
   },
   "scripts": {
     "eslint": "eslint --ignore-path .gitignore --report-unused-disable-directives .",
