@@ -24,7 +24,7 @@
     "index.js"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "peerDependencies": {
     "stylelint": "^13.13.1"
