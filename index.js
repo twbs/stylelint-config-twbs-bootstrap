@@ -17,6 +17,7 @@ module.exports = {
         'scss/at-function-named-arguments': 'never',
         'scss/at-mixin-argumentless-call-parentheses': 'always',
         'scss/at-mixin-named-arguments': null,
+        'scss/comment-no-empty': null,
         'scss/dimension-no-non-numeric-values': true,
         'scss/dollar-variable-colon-space-after': 'at-least-one-space',
         'scss/media-feature-value-dollar-variable': null,
@@ -29,6 +30,8 @@ module.exports = {
             ]
           }
         ],
+        // Disable since node-sass is still supported as a builder and it doesn't support the @use syntax
+        'scss/no-global-function-names': null,
         'scss/selector-no-redundant-nesting-selector': true
       }
     }
