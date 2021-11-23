@@ -8,13 +8,17 @@ module.exports = {
     'stylelint-order'
   ],
   'rules': {
+    'alpha-value-notation': null,
     'at-rule-empty-line-before': null,
     'at-rule-name-space-after': 'always',
     'at-rule-semicolon-space-before': 'never',
     'block-closing-brace-empty-line-before': null,
     'block-closing-brace-newline-after': null,
     'block-opening-brace-space-before': null,
+    'color-function-notation': null,
     'color-named': 'never',
+    'custom-property-pattern': null,
+    'declaration-block-no-redundant-longhand-properties': null,
     'declaration-block-semicolon-newline-before': 'never-multi-line',
     'declaration-empty-line-before': null,
     'declaration-no-important': true,
@@ -31,6 +35,7 @@ module.exports = {
     'max-line-length': null,
     'no-descending-specificity': null,
     'number-leading-zero': 'never',
+    'number-max-precision': null,
     'order/properties-order': [
       'position',
       'top',
