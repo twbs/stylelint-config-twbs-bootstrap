@@ -274,9 +274,11 @@ module.exports = {
       'rules': {
         'no-invalid-position-at-import-rule': null,
         'scss/double-slash-comment-empty-line-before': null,
+        'scss/at-extend-no-missing-placeholder': null,
         'scss/at-function-named-arguments': 'never',
         'scss/at-if-closing-brace-newline-after': null,
         'scss/at-if-closing-brace-space-after': null,
+        'scss/at-if-no-null': null,
         'scss/at-mixin-argumentless-call-parentheses': 'always',
         'scss/at-mixin-named-arguments': null,
         'scss/at-mixin-pattern': null,
@@ -286,6 +288,7 @@ module.exports = {
         'scss/dollar-variable-colon-space-after': 'at-least-one-space',
         'scss/dollar-variable-empty-line-before': null,
         'scss/double-slash-comment-whitespace-inside': null,
+        'scss/function-quote-no-quoted-strings-inside': null,
         'scss/media-feature-value-dollar-variable': null,
         'scss/no-duplicate-dollar-variables': [
           null,
