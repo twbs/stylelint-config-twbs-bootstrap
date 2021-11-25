@@ -2,7 +2,7 @@
 
 module.exports = {
   'extends': [
-    'stylelint-config-standard',
+    'stylelint-config-standard'
   ],
   'plugins': [
     'stylelint-order'
@@ -263,17 +263,16 @@ module.exports = {
     'unicode-bom': 'never',
     'value-list-comma-newline-after': 'never-multi-line',
     'value-list-comma-newline-before': 'never-multi-line',
-    'value-list-comma-space-after': 'always',
+    'value-list-comma-space-after': 'always'
   },
   'overrides': [
     {
       'files': '**/*.scss',
       'extends': [
-        'stylelint-config-standard-scss',
+        'stylelint-config-standard-scss'
       ],
       'rules': {
         'no-invalid-position-at-import-rule': null,
-        'scss/double-slash-comment-empty-line-before': null,
         'scss/at-extend-no-missing-placeholder': null,
         'scss/at-function-named-arguments': 'never',
         'scss/at-if-closing-brace-newline-after': null,
@@ -287,6 +286,7 @@ module.exports = {
         'scss/dimension-no-non-numeric-values': true,
         'scss/dollar-variable-colon-space-after': 'at-least-one-space',
         'scss/dollar-variable-empty-line-before': null,
+        'scss/double-slash-comment-empty-line-before': null,
         'scss/double-slash-comment-whitespace-inside': null,
         'scss/function-quote-no-quoted-strings-inside': null,
         'scss/media-feature-value-dollar-variable': null,
