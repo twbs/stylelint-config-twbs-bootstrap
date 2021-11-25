@@ -5,13 +5,21 @@
     "node": true
   },
   "parserOptions": {
-    "ecmaVersion": 2017
+    "ecmaVersion": 2019
   },
   "extends": "eslint:recommended",
   "rules": {
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
     "quotes": [
       "error",
       "single"
+    ],
+    "quote-props": [
+      "error",
+      "always"
     ]
   }
 }
