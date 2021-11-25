@@ -290,15 +290,7 @@ module.exports = {
         'scss/double-slash-comment-whitespace-inside': null,
         'scss/function-quote-no-quoted-strings-inside': null,
         'scss/media-feature-value-dollar-variable': null,
-        'scss/no-duplicate-dollar-variables': [
-          null,
-          {
-            'ignoreInsideAtRules': [
-              'if',
-              'mixin'
-            ]
-          }
-        ],
+        'scss/no-duplicate-dollar-variables': null,
         // Disable since node-sass is still supported as a builder and it doesn't support the @use syntax
         'scss/no-global-function-names': null,
         'scss/selector-no-redundant-nesting-selector': true
