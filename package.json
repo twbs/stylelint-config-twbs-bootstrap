@@ -30,8 +30,8 @@
     "stylelint": "^14.1.0"
   },
   "dependencies": {
-    "stylelint-config-standard-scss": "^3.0.0",
     "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
     "stylelint-order": "^5.0.0",
     "stylelint-scss": "^4.0.0"
   },
@@ -40,9 +40,8 @@
     "stylelint": "^14.1.0"
   },
   "scripts": {
-    "eslint": "eslint --ignore-path .gitignore --report-unused-disable-directives .",
-    "lint": "npm run eslint",
-    "test": "npm run eslint",
+    "lint": "eslint --ignore-path .gitignore --report-unused-disable-directives .",
+    "test": "npm run lint",
     "test-ci": "stylelint \"(bootstrap|bootstrap-4)/scss/**/*.scss\" --config index.js --ignore-pattern \"**/vendor/\" --formatter verbose"
   }
 }
