@@ -279,7 +279,6 @@ module.exports = {
         'scss/at-if-closing-brace-space-after': null,
         'scss/at-if-no-null': null,
         'scss/at-mixin-argumentless-call-parentheses': 'always',
-        'scss/at-mixin-named-arguments': null,
         'scss/at-mixin-pattern': null,
         'scss/at-rule-conditional-no-parentheses': null,
         'scss/comment-no-empty': null,
@@ -290,7 +289,6 @@ module.exports = {
         'scss/double-slash-comment-whitespace-inside': null,
         'scss/function-quote-no-quoted-strings-inside': null,
         'scss/media-feature-value-dollar-variable': null,
-        'scss/no-duplicate-dollar-variables': null,
         // Disable since node-sass is still supported as a builder and it doesn't support the @use syntax
         'scss/no-global-function-names': null,
         'scss/selector-no-redundant-nesting-selector': true
