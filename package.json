@@ -2,7 +2,7 @@
   "name": "stylelint-config-twbs-bootstrap",
   "version": "2.2.4",
   "description": "Default stylelint config used by Bootstrap.",
-  "main": "css/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twbs/stylelint-config-twbs-bootstrap.git"
@@ -21,29 +21,28 @@
   },
   "homepage": "https://github.com/twbs/stylelint-config-twbs-bootstrap#readme",
   "files": [
-    "css/index.js",
-    "scss/index.js"
+    "index.js"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "peerDependencies": {
-    "stylelint": "^13.13.1"
+    "stylelint": "^14.1.0"
   },
   "dependencies": {
-    "stylelint-config-recommended-scss": "^4.3.0",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.21.0"
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "stylelint": "^13.13.1"
+    "stylelint": "^14.1.0"
   },
   "scripts": {
     "eslint": "eslint --ignore-path .gitignore --report-unused-disable-directives .",
     "lint": "npm run eslint",
     "test": "npm run eslint",
-    "test-ci": "stylelint \"(bootstrap|bootstrap-4)/scss/**/*.scss\" --config scss/index.js --ignore-pattern \"**/vendor/\" --formatter verbose"
+    "test-ci": "stylelint \"(bootstrap|bootstrap-4)/scss/**/*.scss\" --config index.js --ignore-pattern \"**/vendor/\" --formatter verbose"
   }
 }

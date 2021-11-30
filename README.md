@@ -12,20 +12,11 @@ yarn add stylelint-config-twbs-bootstrap --dev
 
 ## Usage
 
-We provide a config for both CSS and SCSS. You can choose which one you would like to extend in your configuration:
-
-### CSS
-
-```json
-{
-  "extends": "stylelint-config-twbs-bootstrap/css"
-}
-```
-
-### SCSS
+We provide a single config that covers both CSS and SCSS. It will automatically apply SCSS rules to files ending in `.scss`.  
+You simply have to extend this config:
 
 ```json
 {
-  "extends": "stylelint-config-twbs-bootstrap/scss"
+  "extends": "stylelint-config-twbs-bootstrap"
 }
 ```

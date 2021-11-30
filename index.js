@@ -8,18 +8,20 @@ module.exports = {
     'stylelint-order'
   ],
   'rules': {
+    'alpha-value-notation': null,
     'at-rule-empty-line-before': null,
     'at-rule-name-space-after': 'always',
-    'at-rule-no-vendor-prefix': true,
     'at-rule-semicolon-space-before': 'never',
     'block-closing-brace-empty-line-before': null,
     'block-closing-brace-newline-after': null,
     'block-opening-brace-space-before': null,
+    'color-function-notation': null,
     'color-named': 'never',
+    'custom-property-pattern': null,
+    'declaration-block-no-redundant-longhand-properties': null,
     'declaration-block-semicolon-newline-before': 'never-multi-line',
     'declaration-empty-line-before': null,
     'declaration-no-important': true,
-    'font-family-name-quotes': 'always-where-recommended',
     'font-weight-notation': [
       'numeric',
       {
@@ -29,12 +31,11 @@ module.exports = {
       }
     ],
     'function-url-no-scheme-relative': true,
-    'function-url-quotes': 'always',
     'max-empty-lines': 2,
     'max-line-length': null,
-    'media-feature-name-no-vendor-prefix': true,
     'no-descending-specificity': null,
     'number-leading-zero': 'never',
+    'number-max-precision': null,
     'order/properties-order': [
       'position',
       'top',
@@ -246,10 +247,7 @@ module.exports = {
       'fill',
       'stroke'
     ],
-    'property-no-vendor-prefix': true,
     'rule-empty-line-before': null,
-    'selector-attribute-quotes': 'always',
-    'selector-class-pattern': '^[a-z][a-z0-9\\-]*[a-z0-9]$',
     'selector-list-comma-newline-before': 'never-multi-line',
     'selector-list-comma-space-after': 'always-single-line',
     'selector-list-comma-space-before': 'never-single-line',
@@ -262,13 +260,41 @@ module.exports = {
     'selector-max-type': 2,
     'selector-max-universal': 1,
     'selector-no-qualifying-type': true,
-    'selector-no-vendor-prefix': true,
-    'shorthand-property-no-redundant-values': true,
-    'string-quotes': 'double',
     'unicode-bom': 'never',
     'value-list-comma-newline-after': 'never-multi-line',
     'value-list-comma-newline-before': 'never-multi-line',
-    'value-list-comma-space-after': 'always',
-    'value-no-vendor-prefix': true
-  }
+    'value-list-comma-space-after': 'always'
+  },
+  'overrides': [
+    {
+      'files': '**/*.scss',
+      'extends': [
+        'stylelint-config-standard-scss'
+      ],
+      'rules': {
+        'no-invalid-position-at-import-rule': null,
+        'scss/at-extend-no-missing-placeholder': null,
+        'scss/at-function-named-arguments': 'never',
+        'scss/at-if-closing-brace-newline-after': null,
+        'scss/at-if-closing-brace-space-after': null,
+        'scss/at-if-no-null': null,
+        'scss/at-mixin-argumentless-call-parentheses': 'always',
+        'scss/at-mixin-named-arguments': null,
+        'scss/at-mixin-pattern': null,
+        'scss/at-rule-conditional-no-parentheses': null,
+        'scss/comment-no-empty': null,
+        'scss/dimension-no-non-numeric-values': true,
+        'scss/dollar-variable-colon-space-after': 'at-least-one-space',
+        'scss/dollar-variable-empty-line-before': null,
+        'scss/double-slash-comment-empty-line-before': null,
+        'scss/double-slash-comment-whitespace-inside': null,
+        'scss/function-quote-no-quoted-strings-inside': null,
+        'scss/media-feature-value-dollar-variable': null,
+        'scss/no-duplicate-dollar-variables': null,
+        // Disable since node-sass is still supported as a builder and it doesn't support the @use syntax
+        'scss/no-global-function-names': null,
+        'scss/selector-no-redundant-nesting-selector': true
+      }
+    }
+  ]
 };
