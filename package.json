@@ -33,10 +33,10 @@
     "stylelint-config-recess-order": "^3.0.0",
     "stylelint-config-standard": "^24.0.0",
     "stylelint-config-standard-scss": "^3.0.0",
-    "stylelint-scss": "^4.0.0"
+    "stylelint-scss": "^4.0.1"
   },
   "devDependencies": {
-    "eslint": "^8.3.0",
+    "eslint": "^8.4.1",
     "stylelint": "^14.1.0"
   },
   "scripts": {
