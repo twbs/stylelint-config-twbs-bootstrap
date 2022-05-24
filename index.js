@@ -15,6 +15,7 @@ module.exports = {
     'block-opening-brace-space-before': null,
     'color-function-notation': null,
     'color-named': 'never',
+    'custom-property-empty-line-before': null,
     'custom-property-pattern': null,
     'declaration-block-no-redundant-longhand-properties': null,
     'declaration-block-semicolon-newline-before': 'never-multi-line',
