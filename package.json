@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "eslint": "^8.19.0",
-    "stylelint": "^14.8.5"
+    "stylelint": "^14.9.1"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore --report-unused-disable-directives .",
