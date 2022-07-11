@@ -8,6 +8,7 @@
     "ecmaVersion": 2019
   },
   "extends": "eslint:recommended",
+  "reportUnusedDisableDirectives": true,
   "rules": {
     "comma-dangle": [
       "error",

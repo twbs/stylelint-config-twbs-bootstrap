@@ -40,7 +40,7 @@
     "stylelint": "^14.9.1"
   },
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore --report-unused-disable-directives .",
+    "lint": "eslint --ignore-path .gitignore .",
     "test": "npm run lint",
     "test-ci": "stylelint \"(bootstrap|bootstrap-4)/scss/**/*.scss\" --config index.js --ignore-pattern \"**/vendor/\" --formatter verbose"
   }
