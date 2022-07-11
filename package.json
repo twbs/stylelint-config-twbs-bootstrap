@@ -27,11 +27,11 @@
     "node": ">=12"
   },
   "peerDependencies": {
-    "stylelint": "^14.4.0"
+    "stylelint": "^14.9.0"
   },
   "dependencies": {
     "stylelint-config-recess-order": "^3.0.0",
-    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard": "^26.0.0",
     "stylelint-config-standard-scss": "^4.0.0",
     "stylelint-scss": "^4.3.0"
   },
