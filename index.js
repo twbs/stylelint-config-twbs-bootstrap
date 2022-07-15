@@ -48,6 +48,7 @@ module.exports = {
     'selector-max-type': 2,
     'selector-max-universal': 1,
     'selector-no-qualifying-type': true,
+    'selector-not-notation': null, // TODO enable this later
     'unicode-bom': 'never',
     'value-list-comma-newline-after': 'never-multi-line',
     'value-list-comma-newline-before': 'never-multi-line',
