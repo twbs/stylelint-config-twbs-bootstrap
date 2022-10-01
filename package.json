@@ -27,7 +27,7 @@
     "node": ">=12"
   },
   "peerDependencies": {
-    "stylelint": "^14.13.0"
+    "stylelint": "^14.11.0"
   },
   "dependencies": {
     "stylelint-config-recess-order": "^3.0.0",
