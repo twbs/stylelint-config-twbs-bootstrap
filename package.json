@@ -41,6 +41,7 @@
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
+    "clone-repo": "git clone https://github.com/twbs/bootstrap.git --branch main --depth 1 bootstrap && git clone https://github.com/twbs/bootstrap.git --branch v4-dev --depth 1 bootstrap-4",
     "test": "npm run lint",
     "test-ci": "stylelint \"(bootstrap|bootstrap-4)/scss/**/*.scss\" --config index.js --ignore-pattern \"**/vendor/\" --formatter verbose"
   }
