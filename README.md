@@ -1,4 +1,4 @@
-# stylelint-config-twbs-bootstrap [![npm version](https://img.shields.io/npm/v/stylelint-config-twbs-bootstrap)](https://www.npmjs.com/package/stylelint-config-twbs-bootstrap) [![Build Status](https://img.shields.io/github/workflow/status/twbs/stylelint-config-twbs-bootstrap/Tests/main?label=Tests&logo=github)](https://github.com/twbs/stylelint-config-twbs-bootstrap/actions?query=workflow%3ATests+branch%3Amain)
+# stylelint-config-twbs-bootstrap [![npm version](https://img.shields.io/npm/v/stylelint-config-twbs-bootstrap)](https://www.npmjs.com/package/stylelint-config-twbs-bootstrap) [![Build Status](https://img.shields.io/github/actions/workflow/status/twbs/stylelint-config-twbs-bootstrap/test.yml?branch=main&label=Tests&logo=github)](https://github.com/twbs/stylelint-config-twbs-bootstrap/actions?query=workflow%3ATests+branch%3Amain)
 
 Default stylelint config used by Bootstrap.
 
