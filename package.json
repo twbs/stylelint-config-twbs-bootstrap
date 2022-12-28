@@ -30,19 +30,19 @@
     "stylelint": "^14.14.0"
   },
   "dependencies": {
-    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-recess-order": "^3.1.0",
     "stylelint-config-standard": "^29.0.0",
     "stylelint-config-standard-scss": "^6.1.0",
     "stylelint-scss": "^4.3.0"
   },
   "devDependencies": {
-    "eslint": "^8.29.0",
+    "eslint": "^8.30.0",
     "stylelint": "^14.16.0"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
     "clone-repo": "git clone https://github.com/twbs/bootstrap.git --branch main --depth 1 bootstrap && git clone https://github.com/twbs/bootstrap.git --branch v4-dev --depth 1 bootstrap-4",
     "test": "npm run lint",
-    "test-ci": "stylelint \"(bootstrap|bootstrap-4)/scss/**/*.scss\" --config index.js --ignore-pattern \"**/vendor/\" --formatter verbose"
+    "test-ci": "stylelint \"(bootstrap|bootstrap-4)/scss/**/*.scss\" --config index.js --ignore-pattern \"**/vendor/\" --ignore-pattern \"**/tests/\" --formatter verbose"
   }
 }
