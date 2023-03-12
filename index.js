@@ -5,7 +5,6 @@ module.exports = {
     'stylelint-config-standard',
     'stylelint-config-recess-order'
   ],
-  'reportDescriptionlessDisables': true,
   'reportInvalidScopeDisables': true,
   'reportNeedlessDisables': true,
   'rules': {
