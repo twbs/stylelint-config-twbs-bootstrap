@@ -32,6 +32,7 @@ module.exports = {
     'function-url-no-scheme-relative': true,
     'max-empty-lines': 2,
     'max-line-length': null,
+    'media-feature-range-notation': null,
     'no-descending-specificity': null,
     'number-leading-zero': 'never',
     'number-max-precision': null,
