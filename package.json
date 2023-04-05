@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-twbs-bootstrap",
   "version": "8.0.0",
-  "description": "Default stylelint config used by Bootstrap.",
+  "description": "An opinionated Stylelint config used by Bootstrap accross our projects.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -20,6 +20,16 @@
     "url": "https://github.com/twbs/stylelint-config-twbs-bootstrap/issues"
   },
   "homepage": "https://github.com/twbs/stylelint-config-twbs-bootstrap#readme",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/twbs"
+    },
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/bootstrap"
+    }
+  ],
   "files": [
     "index.js"
   ],
