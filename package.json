@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-twbs-bootstrap",
   "version": "9.0.0",
-  "description": "An opinionated Stylelint config used by Bootstrap accross our projects.",
+  "description": "An opinionated Stylelint config used by Bootstrap across our projects.",
   "main": "index.js",
   "repository": {
     "type": "git",
