@@ -37,7 +37,7 @@
     "node": "^14.13.1 || >=16.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^15.4.0"
+    "stylelint": "^15.6.0"
   },
   "dependencies": {
     "stylelint-config-recess-order": "^4.0.0",
@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "eslint": "^8.38.0",
-    "stylelint": "^15.4.0"
+    "stylelint": "^15.6.0"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
