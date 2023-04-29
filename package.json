@@ -42,7 +42,7 @@
   "dependencies": {
     "stylelint-config-recess-order": "^4.0.0",
     "stylelint-config-standard": "^33.0.0",
-    "stylelint-config-standard-scss": "^8.0.0",
+    "stylelint-config-standard-scss": "^9.0.0",
     "stylelint-scss": "^4.7.0",
     "stylelint-stylistic": "^0.4.0"
   },
