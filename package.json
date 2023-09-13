@@ -43,12 +43,12 @@
     "stylelint-config-recess-order": "^4.3.0",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-config-standard-scss": "^10.0.0",
-    "stylelint-scss": "^5.0.1",
+    "stylelint-scss": "^5.1.0",
     "stylelint-stylistic": "^0.4.3"
   },
   "devDependencies": {
     "eslint": "^8.46.0",
-    "stylelint": "^15.10.2"
+    "stylelint": "^15.10.3"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
