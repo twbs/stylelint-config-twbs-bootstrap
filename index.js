@@ -26,6 +26,7 @@ module.exports = {
     ],
     'function-url-no-scheme-relative': true,
     'media-feature-range-notation': null,
+    'media-query-no-invalid': null,
     'no-descending-specificity': null,
     'number-max-precision': null,
     'rule-empty-line-before': null,
