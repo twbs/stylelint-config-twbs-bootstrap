@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "eslint": "^8.46.0",
-    "stylelint": "^15.10.2"
+    "stylelint": "^15.10.3"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
