@@ -47,7 +47,7 @@
     "stylelint-stylistic": "^0.4.3"
   },
   "devDependencies": {
-    "eslint": "^8.50.0",
+    "eslint": "^8.52.0",
     "stylelint": "^15.10.3"
   },
   "scripts": {
