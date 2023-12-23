@@ -4,7 +4,7 @@ module.exports = {
   'extends': [
     'stylelint-config-standard',
     'stylelint-config-recess-order',
-    'stylelint-stylistic/config'
+    '@stylistic/stylelint-config'
   ],
   'rules': {
     'alpha-value-notation': null,
@@ -40,22 +40,22 @@ module.exports = {
     'selector-max-universal': 1,
     'selector-no-qualifying-type': true,
     'selector-not-notation': null, // TODO enable this later
-    'stylistic/at-rule-name-space-after': 'always',
-    'stylistic/at-rule-semicolon-space-before': 'never',
-    'stylistic/block-closing-brace-empty-line-before': null,
-    'stylistic/block-closing-brace-newline-after': null,
-    'stylistic/block-opening-brace-space-before': null,
-    'stylistic/declaration-block-semicolon-newline-before': 'never-multi-line',
-    'stylistic/max-empty-lines': 2,
-    'stylistic/max-line-length': null,
-    'stylistic/number-leading-zero': 'never',
-    'stylistic/selector-list-comma-newline-before': 'never-multi-line',
-    'stylistic/selector-list-comma-space-after': 'always-single-line',
-    'stylistic/selector-list-comma-space-before': 'never-single-line',
-    'stylistic/unicode-bom': 'never',
-    'stylistic/value-list-comma-newline-after': 'never-multi-line',
-    'stylistic/value-list-comma-newline-before': 'never-multi-line',
-    'stylistic/value-list-comma-space-after': 'always'
+    '@stylistic/at-rule-name-space-after': 'always',
+    '@stylistic/at-rule-semicolon-space-before': 'never',
+    '@stylistic/block-closing-brace-empty-line-before': null,
+    '@stylistic/block-closing-brace-newline-after': null,
+    '@stylistic/block-opening-brace-space-before': null,
+    '@stylistic/declaration-block-semicolon-newline-before': 'never-multi-line',
+    '@stylistic/max-empty-lines': 2,
+    '@stylistic/max-line-length': null,
+    '@stylistic/number-leading-zero': 'never',
+    '@stylistic/selector-list-comma-newline-before': 'never-multi-line',
+    '@stylistic/selector-list-comma-space-after': 'always-single-line',
+    '@stylistic/selector-list-comma-space-before': 'never-single-line',
+    '@stylistic/unicode-bom': 'never',
+    '@stylistic/value-list-comma-newline-after': 'never-multi-line',
+    '@stylistic/value-list-comma-newline-before': 'never-multi-line',
+    '@stylistic/value-list-comma-space-after': 'always'
   },
   'overrides': [
     {
