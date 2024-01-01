@@ -37,7 +37,7 @@
     "node": ">=18.12.0"
   },
   "peerDependencies": {
-    "stylelint": "^16.0.2"
+    "stylelint": "^16.1.0"
   },
   "dependencies": {
     "@stylistic/stylelint-config": "^1.0.1",
@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "eslint": "^8.56.0",
-    "stylelint": "^16.0.2"
+    "stylelint": "^16.1.0"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
