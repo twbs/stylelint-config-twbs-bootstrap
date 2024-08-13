@@ -37,7 +37,7 @@
     "node": ">=18.12.0"
   },
   "peerDependencies": {
-    "stylelint": "^16.1.0"
+    "stylelint": "^16.8.0"
   },
   "dependencies": {
     "@stylistic/stylelint-config": "^2.0.0",
