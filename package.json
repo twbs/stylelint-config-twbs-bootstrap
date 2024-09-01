@@ -48,11 +48,13 @@
     "stylelint-scss": "^6.5.1"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
+    "@eslint/js": "^9.9.1",
+    "eslint": "^9.9.1",
+    "globals": "^14.0.0",
     "stylelint": "^16.9.0"
   },
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore .",
+    "lint": "eslint",
     "clone-repo": "git clone https://github.com/twbs/bootstrap.git --branch main --depth 1 bootstrap",
     "test": "npm run lint",
     "test-ci": "stylelint \"bootstrap/scss/**/*.scss\" --config index.js --ignore-pattern \"**/vendor/\" --ignore-pattern \"**/tests/\" --formatter verbose"
