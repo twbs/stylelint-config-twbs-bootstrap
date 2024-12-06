@@ -44,8 +44,8 @@
     "@stylistic/stylelint-plugin": "^3.1.1",
     "stylelint-config-recess-order": "^5.1.1",
     "stylelint-config-standard": "^36.0.1",
-    "stylelint-config-standard-scss": "^13.1.0",
-    "stylelint-scss": "^6.8.1"
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-scss": "^6.10.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
