@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
-    "eslint": "^9.9.1",
+    "eslint": "^9.16.0",
     "globals": "^14.0.0",
     "stylelint": "^16.11.0"
   },
