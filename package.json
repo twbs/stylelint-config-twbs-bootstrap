@@ -41,15 +41,15 @@
   },
   "dependencies": {
     "@stylistic/stylelint-config": "^2.0.0",
-    "@stylistic/stylelint-plugin": "^3.1.1",
+    "@stylistic/stylelint-plugin": "^3.1.2",
     "stylelint-config-recess-order": "^5.1.1",
     "stylelint-config-standard": "^36.0.1",
     "stylelint-config-standard-scss": "^14.0.0",
-    "stylelint-scss": "^6.10.0"
+    "stylelint-scss": "^6.11.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
-    "eslint": "^9.16.0",
+    "eslint": "^9.21.0",
     "globals": "^14.0.0",
     "stylelint": "^16.15.0"
   },
