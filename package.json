@@ -43,7 +43,7 @@
     "@stylistic/stylelint-config": "^2.0.0",
     "@stylistic/stylelint-plugin": "^3.1.2",
     "stylelint-config-recess-order": "^5.1.1",
-    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard": "^37.0.0",
     "stylelint-config-standard-scss": "^14.0.0",
     "stylelint-scss": "^6.11.1"
   },
