@@ -10,6 +10,7 @@ module.exports = {
     'alpha-value-notation': null,
     'at-rule-empty-line-before': null,
     'color-function-notation': null,
+    'color-function-alias-notation': null,
     'color-named': 'never',
     'custom-property-empty-line-before': null,
     'custom-property-pattern': null,
