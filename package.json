@@ -48,10 +48,10 @@
     "stylelint-scss": "^6.12.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.25.1",
+    "@eslint/js": "^9.29.0",
     "eslint": "^9.23.0",
     "globals": "^14.0.0",
-    "stylelint": "^16.19.1"
+    "stylelint": "^16.20.0"
   },
   "scripts": {
     "lint": "eslint",
