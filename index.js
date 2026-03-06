@@ -65,6 +65,7 @@ module.exports = {
         'stylelint-config-recess-order'
       ],
       'rules': {
+        'color-function-alias-notation': null,
         'no-invalid-position-at-import-rule': null,
         'scss/at-extend-no-missing-placeholder': null,
         'scss/at-function-named-arguments': 'never',
